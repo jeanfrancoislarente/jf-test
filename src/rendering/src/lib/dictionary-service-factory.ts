@@ -19,7 +19,7 @@ export class DictionaryServiceFactory {
             rootItemId: '{GUID}'
           */
           // DEMO TEAM CUSTOMIZATION - To get JSS app running with SXA installed - https://support.sitecore.com/kb?id=kb_article_view&sysparm_article=KB1000624
-          rootItemId: '{507B2363-3200-4CEA-B238-3045731BA6A5}'
+          rootItemId: '{507B2363-3200-4CEA-B238-3045731BA6A5}',
         })
       : new RestDictionaryService({
           apiHost: config.sitecoreApiHost,
