@@ -1,5 +1,5 @@
 import { Placeholder, useSitecoreContext } from '@sitecore-jss/sitecore-jss-nextjs';
-import { ComponentProps, SitecoreContextValue } from 'lib/component-props';
+import { ComponentProps } from 'lib/component-props';
 
 import Link from 'next/link';
 import { useRouter } from 'next/router';
@@ -35,7 +35,7 @@ export type HeaderProps = ComponentProps & {
 const Header = (props: HeaderProps): JSX.Element => {
   const router = useRouter();
   const { pathname, asPath, query } = router;
-  const { sitecoreContext } = useSitecoreContext<SitecoreContextValue>();
+  const { sitecoreContext } = useSitecoreContext();
 
   const languageNames = new Intl.DisplayNames(['en'], {
     type: 'language',
