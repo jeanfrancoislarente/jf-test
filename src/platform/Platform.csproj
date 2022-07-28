@@ -57,50 +57,17 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Sitecore.XmCloud.Kernel">
-      <PrivateAssets>all</PrivateAssets>
-      <ExcludeAssets>runtime</ExcludeAssets>
-    </PackageReference>
-    <PackageReference Include="Sitecore.XmCloud.ContentSearch">
-      <PrivateAssets>all</PrivateAssets>
-      <ExcludeAssets>runtime</ExcludeAssets>
-    </PackageReference>
-    <PackageReference Include="Sitecore.XmCloud.ContentSearch.Linq">
-      <PrivateAssets>all</PrivateAssets>
-      <ExcludeAssets>runtime</ExcludeAssets>
-    </PackageReference>
-    <PackageReference Include="Sitecore.XmCloud.LayoutService">
-      <PrivateAssets>all</PrivateAssets>
-      <ExcludeAssets>runtime</ExcludeAssets>
-    </PackageReference>
-    <PackageReference Include="Sitecore.XmCloud.Assemblies">
-      <PrivateAssets>all</PrivateAssets>
-      <ExcludeAssets>runtime</ExcludeAssets>
-    </PackageReference>
-    <PackageReference Include="Sitecore.Assemblies.SitecoreHeadlessServicesServer">
-      <PrivateAssets>all</PrivateAssets>
-      <ExcludeAssets>runtime</ExcludeAssets>
-    </PackageReference>
-    <PackageReference Include="Sitecore.Connector.CMP">
-      <PrivateAssets>all</PrivateAssets>
-      <ExcludeAssets>runtime</ExcludeAssets>
-    </PackageReference>
-    <PackageReference Include="Sitecore.Connector.ContentHub.DAM">
-      <PrivateAssets>all</PrivateAssets>
-      <ExcludeAssets>runtime</ExcludeAssets>
-    </PackageReference>
-    <PackageReference Include="Sitecore.JavaScriptServices.ViewEngine">
-      <PrivateAssets>all</PrivateAssets>
-      <ExcludeAssets>runtime</ExcludeAssets>
-    </PackageReference>
-    <PackageReference Include="Sitecore.Services.GraphQL">
-      <PrivateAssets>all</PrivateAssets>
-      <ExcludeAssets>runtime</ExcludeAssets>
-    </PackageReference>
-    <PackageReference Include="Sitecore.Services.GraphQL.EdgeSchema">
-      <PrivateAssets>all</PrivateAssets>
-      <ExcludeAssets>runtime</ExcludeAssets>
-    </PackageReference>
+    <PackageReference Include="Sitecore.XmCloud.Kernel" />
+    <PackageReference Include="Sitecore.XmCloud.ContentSearch" />
+    <PackageReference Include="Sitecore.XmCloud.ContentSearch.Linq" />
+    <PackageReference Include="Sitecore.XmCloud.LayoutService" />
+    <PackageReference Include="Sitecore.XmCloud.Assemblies" />
+    <PackageReference Include="Sitecore.Assemblies.SitecoreHeadlessServicesServer" />
+    <PackageReference Include="Sitecore.Connector.CMP" />
+    <PackageReference Include="Sitecore.Connector.ContentHub.DAM" />
+    <PackageReference Include="Sitecore.JavaScriptServices.ViewEngine" />
+    <PackageReference Include="Sitecore.Services.GraphQL" />
+    <PackageReference Include="Sitecore.Services.GraphQL.EdgeSchema" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\Sitecore.LoadBalancing.config" />
