@@ -1,7 +1,5 @@
-import { NextApiHandler } from 'next';
 import { DOrderCheckoutIntegrationEvent } from 'src/models/ordercloud/DOrderCheckoutIntegrationEvent';
-import { DOrderCalculateResponse } from 'src/models/ordercloud/DOrderCalculateResponse';
-import { withOcWebhookAuth } from '@ordercloud/catalyst';
+import { ApiHandler, withOcWebhookAuth } from '@ordercloud/catalyst';
 
 // withOCWebhookAuth needs the raw body in order to validate the payload is coming from ordercloud
 export const config = {
@@ -17,7 +15,7 @@ export const config = {
  *
  * Since this is a demo we're only using it to update tax cost but it can be used to override shipping cost or line items as well
  */
-const routeHandler: NextApiHandler<DOrderCalculateResponse> = async (request, response) => {
+const routeHandler: ApiHandler = async (request, response) => {
   const event = request.body as DOrderCheckoutIntegrationEvent;
   const taxCost = Number((event.OrderWorksheet.Order.Total * 0.07).toFixed(2));
 
