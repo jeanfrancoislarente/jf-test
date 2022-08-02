@@ -6,5 +6,15 @@
             "jssDeploymentSecret":"511cdfab92b7440db866ac0fb817b490",
             "enabled": true
         }
-    }
+    },
+    "transforms": [
+      {
+        "xdtPath": "/xdts/App_Config/",
+        "targetPath": "/App_Config/"
+      },
+      {
+        "xdtPath": "/xdts/",
+        "targetPath": "/"
+      }
+    ]
 }
