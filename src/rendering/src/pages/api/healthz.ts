@@ -7,4 +7,3 @@ const robotsApi = async (_req: NextApiRequest, res: NextApiResponse): Promise<vo
 };
 
 export default robotsApi;
-    
