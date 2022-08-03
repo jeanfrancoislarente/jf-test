@@ -1,4 +1,4 @@
-# DEMO TEAM CUSTOMIZATION - Add ability to skip building the containers, and use pre-release versions.
+# DEMO TEAM CUSTOMIZATION - Add ability to skip building the containers, and use pre-release versions
 [CmdletBinding(DefaultParameterSetName = "no-arguments")]
 Param (
     [Parameter(HelpMessage = "Whether to skip building the Docker images.")]
