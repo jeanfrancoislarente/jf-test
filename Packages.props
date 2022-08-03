@@ -16,9 +16,11 @@
     <PackageReference Update="Sitecore.XmCloud.Assemblies" Version="$(PlatformVersion)" />
     <PackageReference Update="Sitecore.Assemblies.SitecoreHeadlessServicesServer" Version="19.*" />
     <PackageReference Update="Sitecore.JavaScriptServices.ViewEngine" Version="20.0.0" />
-    <PackageReference Update="Sitecore.Connector.CMP" Version="5.0.0" />
-    <PackageReference Update="Sitecore.Connector.ContentHub.DAM" Version="5.0.0" />
     <PackageReference Update="Sitecore.Services.GraphQL" Version="6.1.0" />
     <PackageReference Update="Sitecore.Services.GraphQL.EdgeSchema" Version="6.0.0" />
+    <PackageReference Update="Sitecore.Connector.CMP" Version="5.*" />
+    <PackageReference Update="Sitecore.Connector.CMP.TaxonomyProvider" Version="5.*" />
+    <PackageReference Update="Sitecore.Connector.ContentHub.DAM" Version="5.*" />
+    <PackageReference Update="Stylelabs.M.Sdk.WebClient" Version="4.1.*" />
   </ItemGroup>
 </Project>

@@ -44,11 +44,14 @@ Languages:
         sitecore\sitecoredemo@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "874410f7-cc0c-483a-9e6a-a56f86b1a054"
+      Value: "d274bbb7-b553-41e5-8358-6a0689ff1fd7"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sitecoredemo@sitecore.com
+        sitecore\scm@sitecore.net
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220622T144729Z
+      Value: 20220802T195310Z
+    - ID: "f57099a3-526a-49f2-aebd-635453e48875"
+      Hint: RenderingHost
+      Value: Default
